@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/backgroundpizza.png");
+    background-position: center;
+    background-size: 100% auto;
+    /* background-color: #B53535; */
+}
+
+body {
+    width: calc(100% - 100px);
+    margin: 2.5vw auto auto auto;
+    
+}
+
+#uperbox {
+    width: 100%;
+    height: 45vh;
+    background-color: #B53535;
+}
+
+#bottombox {
+    width: 100%;
+    height: 45vh;
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    padding-top: 10px;
+}
+
+#navbarbox {
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+}
+
+#rightnavbar {
+    display: flex;
+}
+
+.login_icon {
+    max-width: 60px;
+    max-height: 60px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.shop_icon {
+    max-width: 70px;
+    max-height: 70px;
+    margin-right: 20px;
+}
+
+#promobox{
+    margin-left: 50px;
+    
+}
+h2{
+    font-size: 38px;
+    width: 550px;
+}
+#menu{
+    height: 80px;
+    width: 170px;
+    border: solid 3px #004F44;
+    border-radius: 10px;
+    color: #D94D1A;
+    background-color: #FFFFFF;
+}
+#command{
+    height: 80px;
+    width: 260px;
+    background-color: #D94D1A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: solid 3px #004F44;
+}
+#reductions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw 10vw auto 10vw;
+}
+#reduc{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius:20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reduc p{
+    font-size: 50px;
+}
+.fleche{
+    
+    height: 56px;
+    width: 56px;
+    background-color: #B53535;
+    border-radius: 10vw;
+    align-items: center;
+    
+}
+
+#price{
+    width: 380px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fleche{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.reduc_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 30px;
+    color: #004F44;
+}
+
+#buy_button{
+    height: 35px;
+    width: 200px;
+    background-color: #004F44;
+    color:#FFFFFF; 
+}
+
+#buttons{
+    width: 480px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagePizza{
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -12vw;
+}
